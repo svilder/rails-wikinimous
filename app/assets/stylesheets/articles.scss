@@ -1,0 +1,27 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.index-container {
+  display: flex;
+  justify-content: center;
+}
+
+.show-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+h1{
+  margin-right: 20px;
+}
+
+ul{
+  list-style: none;
+  margin-left: 10px;
+}
+
+li{
+  margin: 10px;
+}
