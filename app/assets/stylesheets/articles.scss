@@ -8,8 +8,13 @@
 }
 
 .show-container {
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+.show-center {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
 }
 
 
@@ -23,5 +28,17 @@ ul{
 }
 
 li{
-  margin: 10px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid red;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+p {
+  padding: 10px;
+  border: 1px solid red;
 }
